@@ -24,7 +24,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    color: #333;
+    color: #3B3738;
 }
 
 h1 {
@@ -243,4 +243,133 @@ bt {
 
 .mt {margin-top: 50px;}
 .centered {text-align: center}
+.centered img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
 .mb {margin-bottom: 50px;}
+
+section.about {
+    color: #fff;
+    background: #3B3738;
+}
+
+section.about a,
+section.about a:hover,
+section.about a:focus,
+section.about a:active,
+section.about a.active {
+    outline: 0;
+    color: #2c3e50;
+}
+
+section.works {
+    color: #fff;
+    background: #fff;
+}
+
+section.works a,
+section.works a:hover,
+section.works a:focus,
+section.works a:active,
+section.works a.active {
+    outline: 0;
+    color: #2c3e50;
+}
+
+
+
+hr.star-light-2,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    position: relative;
+    bottom: 100px;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-dark:after,
+hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-down,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    position: relative;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 10px;
+    text-align: center;
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-dark {
+    border-color: #000;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #3B3738;
+}
+
+hr.star-dark:after {
+    color: #000;
+    background-color: #fff;
+}
+
+hr.star-primary {
+    border-color: #2c3e50;
+}
+
+hr.star-primary:after {
+    color: #2c3e50;
+    background-color: #3B3738;
+}
+
+.about_head{
+  color:#fff;
+}
+
+.about_text{
+  color:#FDF3E7;
+}
+
+.works_text{
+  color:#3B3738;
+}
+
+.languages img{
+  max-width: 125px;
+}
+
+.mb_more
+{
+  position: relative;
+  bottom: 60px;
+}

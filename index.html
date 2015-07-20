@@ -16,11 +16,12 @@
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
-
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/hover.zoom.js"></script>
     <script src="assets/js/hover.zoom.conf.js"></script>
 
+    <!-- Custom Fonts -->
+    <link href="assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -28,7 +29,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body id="page-top">
 
 <!-- Navigation -->
   <nav class="navbar navbar-default navbar-fixed-top">
@@ -41,7 +42,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#page-top">Game Finder</a>
+        <a class="navbar-brand" href="#page-top">My Portfoilio</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,13 +52,13 @@
             <a href="#page-top"></a>
           </li>
           <li class="page-scroll">
-            <a href="#portfolio">Games</a>
-          </li>
-          <li class="page-scroll">
             <a href="#about">About</a>
           </li>
           <li class="page-scroll">
-            <a href="#contact">Add Games</a>
+            <a href="#works">Works</a>
+          </li>
+          <li class="page-scroll">
+            <a href="#contact">Contact Me</a>
           </li>
         </ul>
       </div>
@@ -82,13 +83,17 @@
   </div><!-- /ww -->
   
   
-<div class="container ptb">
+  <!-- +++++ About Section +++++ -->
+
+  <section class="about" id="about">  
+    <div class="container ptb">
       <div class="row">
-        <h2 class="centered mb">I craft handsome sites & stunning apps<br/>that empower your startup.</h2>
-        <div class="col-md-6">
+      <hr class="centered mt star-light">
+        <h2 class="centered mb mt about_head">I Craft Beautiful and Intuative<br/>Websites, and Apps</h2>
+        <div class="col-md-6 about_text">
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div><!--/col-md-6-->
-        <div class="col-md-6">
+        <div class="col-md-6 about_text">
           <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.</p>
         </div><!--/col-md-6-->
       </div><!--/row-->
@@ -100,22 +105,27 @@
         </div>
       </div><!--/row-->
     </div><!--/.container-->
+  </section>
 
+
+ <!-- +++++ Projects Section +++++ -->
+  <section class="works mt" id="works">  
     <div id="g">
       <div class="container">
         <div class="row centered">
-          <h2>Check some of my latest works.</h2>
+          <hr class="centered mt star-dark">
+          <h2 class="mt">Check some of my latest works.</h2>
           <div class="col-md-8 col-md-offset-2">
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text.<br/>It has roots in a piece of classical Latin literature<br/>from 45 BC, making it over 2000 years old.</p>
+            <p class="works_text">Contrary to popular belief, Lorem Ipsum is not simply random text.<br/>It has roots in a piece of classical Latin literature<br/>from 45 BC, making it over 2000 years old.</p>
 
            </div><!--/col-md-8-->
         </div><!--/row-->
-      </div><!--/.container-->           
+      </div><!--/.container-->    
+    </section>       
 
-  <!-- +++++ Projects Section +++++ -->
   
-  <div class="container pt">
-    <div class="row mt centered"> 
+  <div class="container pt centered">
+    <div class="row mb_more centered"> 
       <div class="col-lg-4">
         <a class="zoom green" href="work01.html"><img class="img-responsive" src="assets/img/portfolio/port01.jpg" alt="" /></a>
         <p>APE</p>
@@ -129,7 +139,7 @@
         <p>VIKINGS</p>
       </div>
     </div><!-- /row -->
-    <div class="row mt centered"> 
+    <div class="row mb_more centered"> 
       <div class="col-lg-4">
         <a class="zoom green" href="work01.html"><img class="img-responsive" src="assets/img/portfolio/port04.jpg" alt="" /></a>
         <p>YODA</p>
@@ -145,10 +155,12 @@
     </div><!-- /row -->
   </div><!-- /container -->
 
-
-      <div class="container mt">
+<!-- SKILLS -->
+    <hr class="centered mb_more star-dark">
+      <div class="container mb">
         <div class="row clients centered">
-          <p class="mb">Some clients that I had the pleasure to working for.</p>
+          <p class="mb"><b>MY SKILLS</b></p>
+          <div class="languages">
           <div class="col-sm-2 col-sm-offset-1">
             <img src="assets/img/client1.png" alt="">
           </div>
@@ -164,6 +176,7 @@
           <div class="col-sm-2">
             <img src="assets/img/client5.png" alt="">
           </div>
+          </div>
         </div><!--/row-->
       </div><!--/container-->
     </div><!--/.G-->
@@ -172,13 +185,13 @@
   <!-- +++++ Footer Section +++++ -->
   
   <div id="footer">
-    <div class="container">
+    <div class="container centered">
       <div class="row">
         <div class="col-lg-4">
           <h4>Contact Me</h4>
           <p>
-            <span class="glyphicon glyphicon-envelope"></span>pablogamito@gmail.com<br/>
-            <span class="glyphicon glyphicon-phone"></span>+33 659 04 23 34 <br/>
+            <i class="fa fa-envelope-o"></i> pablogamito@gmail.com<br/>
+            <i class="fa fa-phone"></i> +33 659 04 23 34 <br/>
           </p>
         </div><!-- /col-lg-4 -->
         
