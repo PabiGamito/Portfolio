@@ -32,22 +32,19 @@
   <body id="page-top">
 
 <!-- Navigation -->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#page-top">My Portfoilio</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
+<nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapsible">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">My Portfoilio</a>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar-collapsible">
+      <ul class="nav navbar-nav navbar-right">
           <li class="hidden">
             <a href="#page-top"></a>
           </li>
@@ -58,23 +55,22 @@
             <a href="#works">Works</a>
           </li>
           <li class="page-scroll">
-            <a href="#contact">Contact Me</a>
+            <a href="#skills">My Skills</a>
           </li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
+        <li>&nbsp;</li>
+      </ul>
     </div>
-    <!-- /.container-fluid -->
-  </nav>
+  </div>
+</nav>
 
   <!-- +++++ Welcome Section +++++ -->
-  <div id="ww">
+  <div id="welcome">
       <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 centered">
           <img src="assets/img/user.png" alt="Stanley">
           <h1>Hi, I am Pablo Gamito</h1>
-          <p>Hello everybody. I'm Pablo, a freelance developper and designer located in France. </p>
+          <p>Hello everybody. I'm Pablo, a freelance developer and designer located in France. </p>
           <p>More stuff, blah blah, blah, blah blah, blah, what can I put, I don't know. Need text. Blah Blah</p>
         
         </div><!-- /col-lg-8 -->
@@ -116,7 +112,8 @@
           <hr class="centered mt star-dark">
           <h2 class="mt">Check some of my latest works.</h2>
           <div class="col-md-8 col-md-offset-2">
-            <p class="works_text">Contrary to popular belief, Lorem Ipsum is not simply random text.<br/>It has roots in a piece of classical Latin literature<br/>from 45 BC, making it over 2000 years old.</p>
+            <p class="works_text">Every single project enhances my skills,<br/>
+            allowing me to develop faster and more efficiantly.</p>
 
            </div><!--/col-md-8-->
         </div><!--/row-->
@@ -155,11 +152,14 @@
     </div><!-- /row -->
   </div><!-- /container -->
 
-<!-- SKILLS -->
+<!-- SKILLS --> 
+  <section id=skills> 
     <hr class="centered mb_more star-dark">
       <div class="container mb">
         <div class="row clients centered">
-          <p class="mb"><b>MY SKILLS</b></p>
+          <p class="mb"><b>MY SKILLS</b></p><br>
+          <p class="mb_more">I am constantly developping my skills and gaining new ones.<br>
+          </p>
           <div class="languages">
           <div class="col-sm-2 col-sm-offset-1">
             <img src="assets/img/client1.png" alt="">
@@ -180,6 +180,7 @@
         </div><!--/row-->
       </div><!--/container-->
     </div><!--/.G-->
+  </section>
   
   
   <!-- +++++ Footer Section +++++ -->
@@ -219,5 +220,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
   </body>
 </html>
